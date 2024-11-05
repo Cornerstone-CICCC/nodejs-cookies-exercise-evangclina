@@ -1,0 +1,15 @@
+<%- include("partials/header")%>
+    <h1>Login</h1>
+    <form action="/login" method="post">
+        <label>
+            <span>Username</span>
+            <input type="text" name="username" autocomplete="off" placeholder="Enter Username">
+        </label>
+        <label>
+            <span>Password</span>
+            <input type="password" name="password" placeholder="Enter password">
+        </label>
+        <button type="submit">Log In</button>
+    </form>
+
+<%- include("partials/footer")%>
