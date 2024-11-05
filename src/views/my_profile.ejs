@@ -15,8 +15,12 @@
                         <a href="/">home</a>
                     </li>
                     <li>
-                        <a href="/my-profile">my account</a>
+                        <a href="/logout">log out</a>
                     </li>
                 </ul>
             </menu>
         </header>
+
+        <h2>Welcome <%= username  ?? "user" %>!</h2>
+
+<%- include("partials/footer")%>
